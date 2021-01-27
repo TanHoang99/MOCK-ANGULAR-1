@@ -6,6 +6,9 @@ import { AppComponent } from "./app.component";
 import { NavbarComponent } from "./share/navbar/navbar.component";
 import { AdminHomeComponent } from "./admin/admin-home/admin-home.component";
 import { PostComponent } from "./admin/post/post.component";
+import { TestsComponent } from "./tests/tests.component";
+import { FooterComponent } from "./footer/footer.component";
+import { MainComponent } from "./main/main.component";
 
 @NgModule({
   declarations: [
@@ -13,6 +16,9 @@ import { PostComponent } from "./admin/post/post.component";
     NavbarComponent,
     AdminHomeComponent,
     PostComponent,
+    TestsComponent,
+    FooterComponent,
+    MainComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
