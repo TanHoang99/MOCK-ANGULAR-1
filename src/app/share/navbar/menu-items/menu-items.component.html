@@ -1,0 +1,6 @@
+<li class="nav-item dropdown">
+  <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> {{item.displayName}} </a>
+  <ul class="dropdown-menu">
+    <li *ngFor="let item of item.children"><a class="dropdown-item" href="#">{{item.displayName}}</a></li>
+  </ul>
+</li>
