@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'MOCKFINAL'`, () => {
+  it(`should have as title 'MockFreetuts-Angular-Notion'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('MOCKFINAL');
+    expect(app.title).toEqual('MockFreetuts-Angular-Notion');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('MOCKFINAL app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('MockFreetuts-Angular-Notion app is running!');
   });
 });

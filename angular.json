@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MOCKFINAL": {
+    "MockFreetuts-Angular-Notion": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/MOCKFINAL",
+            "outputPath": "dist/MockFreetuts-Angular-Notion",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MOCKFINAL:build"
+            "browserTarget": "MockFreetuts-Angular-Notion:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "MOCKFINAL:build:production"
+              "browserTarget": "MockFreetuts-Angular-Notion:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MOCKFINAL:build"
+            "browserTarget": "MockFreetuts-Angular-Notion:build"
           }
         },
         "test": {
@@ -115,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "MOCKFINAL:serve"
+            "devServerTarget": "MockFreetuts-Angular-Notion:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "MOCKFINAL:serve:production"
+              "devServerTarget": "MockFreetuts-Angular-Notion:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "MOCKFINAL"
+  "defaultProject": "MockFreetuts-Angular-Notion"
 }
