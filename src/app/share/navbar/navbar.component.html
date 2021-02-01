@@ -69,6 +69,19 @@
             </ul>
             <i class="responsive-caret"></i>
           </li>
+          <li class="menu-item menu-item-has-children menu-parent-item mom_default_menu_item menu-item-depth-0"
+            *ngFor="let item of navItems.slice(1)">
+
+            <a href="https://freetuts.net/mon-hoc" title="{{item.nav_name}}">
+              {{item.nav_name}} </a>
+            <ul class="sub-menu ">
+              <li class="menu-item  menu-parent-item mom_default_menu_item menu-item-depth-1"
+                *ngFor="let itemLV2 of item.children">
+                <a href="https://freetuts.net/toan" title="{{itemLV2.nav_name}}">
+                  {{itemLV2.nav_name}}</a>
+            </ul>
+            <i class="responsive-caret"></i>
+          </li>
         </ul>
       </div>
     </div>

@@ -12,3 +12,11 @@ export interface Category {
   title: string;
   group: string;
 }
+
+export interface Post {
+  post_title: string;
+  post_category: string;
+  post_img_url: string;
+  post_desc: string;
+  group?: [];
+}
